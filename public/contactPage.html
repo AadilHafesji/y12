@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>My Website | Contact Page</title>
+
+        <link href="style.css" rel="stylesheet">
+
+        <script defer type="text/javascript" src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <nav id="navbar"></nav>
+
+        <div class="contactSection">
+            <h1>Get in Touch</h1>
+
+            <div class="contact-wrap">
+                <div class="form-section">
+                    <p class="form-paragraph">Dropping a line to say hello, asking for my resume or want to see if we can build 
+                        something amazing together? I’d love to hear from you!</p>
+                    <p class="form-paragraph">Fill in the form below with your information and I look forward to hearing from 
+                        you!</p>
+                        
+                    <form class="contact-form" id="contactForm" onkeyup="verify()" onsubmit="sendEmail()" method="POST">
+                        <label for="name">Name<span class="required-star">*</span></label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="emailAddress">Email Address<span class="required-star">*</span></label>
+                        <input type="email" id="emailAddress" required>
+            
+                        <label for="description">Message<span class="required-star">*</span></label>
+                        <textarea name="user_message" id="description" required></textarea>
+            
+                        <button type="button" id="submitButton" class="blue-button" disabled>Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer"></footer>
+    </body>
+</html>

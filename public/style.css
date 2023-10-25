@@ -1,0 +1,493 @@
+body {
+    background-color: aqua;
+}
+
+.headingOne {
+    text-align: center;
+}
+
+.subheading {
+    text-align: center;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    padding-right: 5%;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.mainSection, .educationMainSection, .hobbiesMainSection, .experienceMainSection, .signInSection, .contactSection, .signUpSection {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.about {
+    border: 5px solid #FFFF00;
+    margin: 30px;
+    padding: 10px;
+}
+
+.myImg {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.skillsSection {
+    border: 4px yellow solid;
+    border-radius: 6px;
+    margin: 30px;
+    padding: 10px;
+    background-color: orange;
+    box-shadow: 5px 10px #808080;
+}
+
+.skills-tools {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 20px;
+}
+
+.tools {
+    margin: 30px;
+    padding: 10px;
+}
+  
+.tools-row-one {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+}
+  
+.tool-one {
+    display: grid;
+    grid-column: 1;
+}
+  
+.tool-two {
+    display: grid;
+    grid-column: 2;
+}
+  
+.tool-three {
+    display: grid;
+    grid-column: 3;
+}
+  
+.tool-four {
+    display: grid;
+    grid-column: 4;
+}
+  
+.tool-five {
+    display: grid;
+    grid-column: 5;
+}
+  
+.tool-six {
+    display: grid;
+    grid-column: 6;
+}
+  
+.tool-one-img, .tool-two-img, .tool-three-img, .tool-four-img, .tool-five-img, .tool-six-img {
+    grid-row: 1;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+  
+.tool-one-text, .tool-two-text, .tool-three-text, .tool-four-text, .tool-five-text, .tool-six-text {
+    grid-row: 2;
+    text-align: center;
+    color: white;
+}
+  
+.tools-row-two {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+}
+  
+.tool-seven {
+    display: grid;
+    grid-column: 1;
+}
+  
+.tool-eight {
+    display: grid;
+    grid-column: 2;
+}
+  
+.tool-nine {
+    display: grid;
+    grid-column: 3;
+}
+  
+.tool-ten {
+    display: grid;
+    grid-column: 4;
+}
+  
+.tool-eleven {
+    display: grid;
+    grid-column: 5;
+}
+  
+.tool-twelve {
+    display: grid;
+    grid-column: 6;
+}
+  
+.tool-seven-img, .tool-eight-img, .tool-nine-img, .tool-ten-img, .tool-eleven-img, .tool-twelve-img {
+    grid-row: 1;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+  
+.tool-seven-text, .tool-eight-text, .tool-nine-text, .tool-ten-text, .tool-eleven-text, .tool-twelve-text {
+    grid-row: 2;
+    text-align: center;
+    color: white;
+}
+  
+.youtube-section {
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 30px;
+    padding: 10px;
+}
+  
+.video-one {
+    grid-column: 1;
+    margin: auto;
+}
+  
+.video-two {
+    grid-column: 2;
+    margin: auto;
+}
+
+.videoSection {
+    margin: 30px;
+    padding: 10px;
+}
+
+.headingThree {
+    color: white;
+}
+
+.headingFour {
+    display: block;
+    text-align: center;
+}
+
+/* My Education */
+.educationTable {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.educationTable .educationTr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.educationTh {
+    text-align: center;
+}
+
+.educationTable .educationTh, .educationTable .educationTd {
+    padding: 12px 15px;
+}
+
+.educationTable .educationTr {
+    border-bottom: thin solid #dddddd;
+}
+
+.imageSection {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 10px;
+    align-items: center;
+}
+
+.educationImg {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.loxfordImg {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+.imgLink {
+    margin: auto;
+}
+
+/* Hobbies Section */
+.hobbiesSection {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+    grid-gap: 15px;
+}
+
+.card {
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    box-shadow: 6px 6px 6px white;
+    background: #FFF;
+}
+
+.hobbiesImg {
+    width: 300px;
+    height: 260px;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.cardImg {
+    width: 300px;
+    margin: auto;
+}
+
+.cardImg:hover .hoverImg {
+    display: none;
+}
+
+.hoverImgTwo {
+    display: none;
+}
+
+.cardImg:hover .hoverImgTwo {
+    display: inline-block;
+}
+
+/* Experience Section */
+.experienceTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.experienceTh {
+    text-align: center;
+}
+
+.experienceTd {
+    text-align: left;
+}
+  
+.experienceTd, .experienceTh {
+    border: 1px solid #9a9999;
+    padding: 8px;
+}
+
+.experienceImg {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+/* Contact Section */
+.contact-wrap, .signInWrap, .signUpWrap, .forgotPasswordWrap {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 800px;
+    border: #636363;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px 5px rgb(99 99 99 / 30%);
+    background: white;
+}
+  
+.form-section {
+    margin: auto;
+}
+  
+.form-paragraph {
+    padding: 0 20px;
+}
+  
+.contact-form, .signIn-form, .signUp-form, .forgotPassword-form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+}
+  
+label {
+    display: flex;
+}
+  
+input, textarea {
+    width: 600px!important;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+  
+textarea {
+    /* Space to type some text */
+    height: 5em;
+}
+  
+input[type="text"], input[type="email"], input[type="tel"], textarea, input[type="password"] {
+    display: block;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #FFF;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #D1D3D4;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    outline: none;
+}
+  
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
+    border: 2px solid #004170;
+}
+  
+.required-star {
+    font-size: 20px;
+    color: #B3000F;
+}
+  
+.blue-button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    background-color: #004170;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #0263A8;
+    transition: all 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+  
+.blue-button:hover {
+    background-color: #004170;
+    transform: translateY(4px);
+    box-shadow: 0 5px #0263A8;
+}
+  
+.blue-button:active {
+    background-color: #004170;
+    box-shadow: 0 5px #004170;
+    transform: translateY(8px);
+}
+  
+button:disabled {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    background-color: #464646;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #616161;
+    transition: all 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+  
+button:disabled:hover {
+    background-color: #464646;
+    transform: translateY(4px);
+    box-shadow: 0 5px #616161;
+}
+  
+button:disabled:active {
+    background-color: #464646;
+    box-shadow: 0 5px #464646;
+    transform: translateY(8px);
+}
+
+/* Sign In Section */
+.passwordSection {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.forgotPassword, .signUpSpan, .signInSpan, .backToSignInSpan {
+    display: block;
+    margin: 20px 0px;
+}
+
+.passwordInput {
+    grid-column: 1;
+}
+
+.eyeIcon {
+    grid-column: 2;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footerText {
+    display: block;
+    text-align: center;
+}
